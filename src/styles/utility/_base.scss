@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%; //Sets 1rem == 10 px before responsive modifiers
+	
+	// @include respond(tab-land) {
+	// 	font-size: 56.25%;
+	// }
+
+	// @include respond(tab-port) {
+	// 	font-size: 50%;
+	// }
+
+	// @include respond(phone) {
+	// 	font-size: 37.5%;
+	// }
+
+	// @include respond(big-desktop) {
+	// 	font-size: 75%;
+	// }
+}
